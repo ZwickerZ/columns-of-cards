@@ -6,8 +6,17 @@ html {
   box-sizing: inherit;
 }
 
+/* SPECIFIC STYLING */
 h1 {
   display: block;
   font-size: 2rem;
   text-align: center;
+}
+
+h2 {
+  font-size: .875rem;
+}
+
+div .author {
+  font-style: italic;
 }
