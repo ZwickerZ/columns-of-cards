@@ -5,3 +5,9 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+h1 {
+  display: block;
+  font-size: 2rem;
+  text-align: center;
+}
