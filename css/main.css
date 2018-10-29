@@ -6,7 +6,7 @@ html {
   box-sizing: inherit;
 }
 
-/* SPECIFIC STYLING */
+/* *********** SPECIFIC STYLING *********** */
 h1 {
   display: block;
   font-size: 2rem;
@@ -19,4 +19,30 @@ h2 {
 
 div .author {
   font-style: italic;
+}
+
+img {
+  max-width: 100px;
+}
+
+.card-1 {
+  background-color: #e2e2e2;
+}
+
+.card-2 {
+  background-color: #ccc;
+}
+
+.card-3 {
+  background-color: #aaa
+}
+
+.card-4 {
+  background-color: #999;
+}
+
+/* *********** CONTENT PLACEMENT *********** */
+.cards {
+  display: flex;
+  flex-direction: row;
 }
