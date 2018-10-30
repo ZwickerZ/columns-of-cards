@@ -8,16 +8,20 @@ html {
 
 /* *********** SPECIFIC STYLING *********** */
 
+body {
+  background-color: white;
+}
+
 h2 {
   display: block;
   font-size: 2rem;
   text-align: center;
-  margin: 1rem 0;
 }
 
 h3 {
   font-size: .875rem;
-  margin: 0;
+  font-weight: bold;
+  margin: .9rem;
 }
 
 div .author {
@@ -35,8 +39,11 @@ img {
   width: 100%;
   background-color: #333;
   border-radius: 8px;
-  padding: .75rem;
+  padding: .75em;
   text-decoration: none;
+}
+
+.btn-small {
   color: #f2f2f2;
 }
 
