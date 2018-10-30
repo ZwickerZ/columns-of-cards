@@ -7,14 +7,16 @@ html {
 }
 
 /* *********** SPECIFIC STYLING *********** */
+
 h1 {
   display: block;
   font-size: 2rem;
   text-align: center;
 }
 
-h2 {
+h3 {
   font-size: .875rem;
+  margin: 0;
 }
 
 div .author {
@@ -26,8 +28,9 @@ img {
   max-width: 100px;
 }
 
-.btn {
+.btn-small {
   display: block;
+  font-size: .875rem;
   width: 100%;
   background-color: #333;
   border-radius: 8px;
@@ -36,7 +39,7 @@ img {
   color: #f2f2f2;
 }
 
-.btn:hover {
+.btn-small:hover {
   background-color: #000;
 }
 
@@ -49,7 +52,7 @@ img {
 }
 
 .card-3 {
-  background-color: #aaa
+  background-color: #aaa;
 }
 
 .card-4 {
@@ -61,7 +64,7 @@ img {
 body {
   margin: 0;
   padding: 0 1.5rem;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   line-height: 1.5;
 }
 
@@ -82,6 +85,7 @@ body {
   flex-grow: 1;
   margin: 0 0 1.5rem;
 }
+
 .card {
   width: 25%;
   padding: .75rem;
@@ -95,9 +99,5 @@ body {
 
 .author {
   font-size: .875rem;
-  margin: 0;
-}
-
-h2 {
   margin: 0;
 }
