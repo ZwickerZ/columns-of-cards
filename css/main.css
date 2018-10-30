@@ -24,9 +24,8 @@ div .author {
   font-style: italic;
 }
 
-.card img {
+img {
   display: block;
-  width: 100px;
 }
 
 .btn {
@@ -99,6 +98,7 @@ body {
 
 .card img {
   margin: 0 auto 1.5rem;
+  width: 100px;
 }
 
 .author {
